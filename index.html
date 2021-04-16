@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <meta charset="utf-8"/> <!--this is for fonts-->
+        <meta name="viewport" content ="width=device-width initial-scale=1.0" />
+        <!--below links to the CSS style sheet. has to be in the 'head part of the code'-->
+        <link rel="stylesheet" href= "Styles.css">
+        <title> My Budget App </title>
+    </head>
+    <body>
+
+        <main>
+            <section>
+                <h1> Monthly Budget: </h1>
+                <p id="monthly_budget"></p>
+                <form> 
+                    <input type = "number" id="income_input" placeholder = "Monthly Income">
+                    <button id="update_budget_button">Update Budget </button>
+                </form>
+            </section>
+            
+            <section>
+                <h2> Add Expense:</h2>
+                <form>
+                    <input type ="text" id="name_input" placeholder="Expense Name" />
+                    <input type ="number" id="amount_input" placeholder="Expense Amount" />
+                    <button id="add_expense_button"> Add Expense</button>
+                </form>
+            </section>
+
+            <section>
+                <h2>Expense List:</h2>
+                <div id="expense-list"></div>
+            </section>
+
+            <section>
+                <h2> Total Expenses:</h2>
+                <p id="total_expenses"></p>
+            </section>
+
+            <section>
+                <h2> Remaining Balance:</h2>
+                <p id="remaining_balance" ></p>
+            </section>
+        </main>
+<script src="script.js"></script>
+    </body>
+</html>

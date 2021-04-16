@@ -1,0 +1,65 @@
+body {
+    background-color:rgb(94, 63, 94);
+    font-family: "Courier New", Courier, monospace;
+}
+main {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+Section {
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-bottom: 0px;
+    font-size: 4em;
+}
+
+h2 {
+    margin-bottom: 0px;
+    font-size: 2em;
+}
+
+input {
+    display: block;
+    margin: 10px auto; 
+    /* top and the bottom of the box is first figure, left and right figure size for us*/
+    width: 200px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    padding: 10px;
+    text-align: center;
+    /* ^ centers the text in the buttons */
+}
+
+button {
+     padding: 10px 20px;
+     border-radius: 5px;
+     border: 2px solid black;
+     background-color: slateblue;
+     color: white;
+     font-family: "Segoe UI", Tahoma, sans-serif;
+     font-size: 1em;
+     margin: 10px;
+}
+
+button:hover {
+    color: slateblue;
+    background-color: white;
+    }
+    
+    .red {
+    color: rgb(255, 0, 0);
+    }
+    
+    .green {
+    color: rgb(25, 212, 25);
+    }
+
+    
+
